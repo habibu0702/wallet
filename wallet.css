@@ -1,0 +1,124 @@
+body {
+  background-color: black;
+  display: flex;
+  font-family: arial, sans-serif;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.holder {
+  background: linear-gradient(yellow,blue,black);
+  color: white;
+  font-size: 50px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 5px solid white;
+  box-shadow: 10 4px 8px white,(0,0,0,0.1);
+}
+
+.balance {
+  font-size: 40px;
+  color: white;
+}
+
+.change {
+  font-size: 30px;
+  color: white;
+  padding-top: 100px;
+}
+
+.receive {
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px;
+  height: 100px;
+  width: 150px;
+  margin-top: 100px;
+  box-shadow: 50px blue;
+}
+
+.send {
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px;
+  height: 100px;
+  width: 150px;
+  margin-top: 100px;
+}
+
+.swap {
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px;
+  height: 100px;
+  width: 150px;
+  margin-top: 100px;
+}
+
+.farm {
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px;
+  height: 100px;
+  width: 150px;
+  margin-top: 100px;
+}
+
+.add {
+  font-size: 30px;
+  padding: 0px;
+  margin: 10px;
+  height: 100px;
+  width: 140px;
+  margin-top: 100px;
+}
+
+.search-input {
+  font-size: 30px;
+  margin-top: 200px;
+}
+
+.container {
+  background-color: aqua;
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  border: 5px solid white;
+  height: 16vh;
+  width: 870px;
+  border-radius: 30px;
+  margin-top: 810px;
+  box-shadow: 10px 20px 30px white, (0,0,0,0.1);
+}
+
+
+.wallet {
+  font-size: 40px;
+  padding: 10px;
+  margin: 10px;
+  height: 150px;
+  width: 200px;
+  padding-left: 100px;
+}
+
+.history {
+  font-size: 40px;
+  padding: 10px;
+  margin: 10px;
+  height: 150px;
+  width: 200px;
+  margin-left: 50px;
+}
+
+.setting {
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px;
+  height: 150px;
+  width: 200px;
+  margin-left: 100px;
+}
